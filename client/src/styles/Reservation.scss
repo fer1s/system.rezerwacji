@@ -1,0 +1,31 @@
+.reservation {
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 0.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 400;
+        opacity: 0.7;
+    }
+}
+
+.reservation .reservation_info {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    background-color: #fff;
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 0.7rem;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
