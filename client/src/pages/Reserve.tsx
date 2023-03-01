@@ -88,6 +88,8 @@ const Reserve = () => {
    return (
       <div className="center">
          <div className="reserve">
+            <h1>Zarezerwuj</h1>
+            <p>Zarezerwuj miejsca na dzisiejszy seans.</p>
             <div className="seats">
                {seats.map((rows: [], index) => (
                   <div key={index} className="seat_row">

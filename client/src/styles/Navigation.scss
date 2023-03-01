@@ -35,6 +35,7 @@ nav .links a {
 
     @media screen and (max-width: 768px) {
         font-size: 0.9rem;
+        margin: 0 8px;
 
         i {
             display: none;
@@ -42,6 +43,10 @@ nav .links a {
     }
 
     &:hover {
+        color: #000;
+    }
+
+    &.active {
         color: #000;
     }
 }

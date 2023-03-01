@@ -49,6 +49,12 @@
     &:nth-child(7) {
         margin-left: 40px;
     }
+
+    @media screen and (max-width: 768px) {
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
 }
 
 .reserve .form {

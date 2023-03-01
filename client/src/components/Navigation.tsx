@@ -16,6 +16,11 @@ const Navigation = () => {
          icon: 'bx-calendar',
          path: '/reserve',
       },
+      {
+         name: 'Rezerwacje',
+         icon: 'bx-list-ul',
+         path: '/reservations',
+      }
    ]
 
    return (
